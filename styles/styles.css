@@ -1,3 +1,10 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -30,10 +37,8 @@ main{
 
 aside{
     margin: 1em;
-    border: 1px solid slategrey;
     padding: 1px;
-    background-color: #d6d6d6;
-    color: black;
+    width: 20rem;
 }
 
 aside img{
@@ -48,6 +53,12 @@ footer{
 }
 
 
-
-
+/* Class Selectors */
+.box{
+    border: 1px solid slategrey;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: beige;
+    color: black;
+}
 
