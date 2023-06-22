@@ -38,8 +38,6 @@ main{
 
 aside{
     position: relative;
-    margin: 1em;
-    padding: 1px;
     width: 20rem;
 }
 
@@ -63,10 +61,10 @@ footer{
 
 /* Class Selectors */
 .box{
-    border: 1px solid slategrey;
+    border: 1px solid #EDEDED;
     margin: 1rem;
     padding: 1rem;
-    background-color: beige;
+    background-color: #FCFCFC;
     color: black;
 }
 
