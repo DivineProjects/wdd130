@@ -57,13 +57,13 @@ h1{
     position: absolute;
 }
 
-article{
+.hero article{
     position: absolute;
     background-color: var(--accent2-color);
     opacity: 1;
 }
 
-article img{
+.hero article img{
     float: right;
     width: 100px;
     height: auto;
