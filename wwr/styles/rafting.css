@@ -37,22 +37,20 @@ h1,h2,h3,h4,h5,h6{
 
 p{
     padding: 20px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
 }
 
-footer a:link, footer a:visited{
-    color: var(--nav-link-color);
-    text-decoration: none;
-    
-}
+
 
 .hero{
     position: relative;
 }
 
 .hero img{
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
 }
 
 h1{
@@ -61,17 +59,22 @@ h1{
 
 article{
     position: absolute;
+    background-color: var(--accent2-color);
+    opacity: 1;
 }
 
 article img{
     float: right;
-    width: 100%;
+    width: 100px;
     height: auto;
 
 }
 
 
-
+footer a:link{
+    text-decoration: none;
+    
+}
 
 
 
