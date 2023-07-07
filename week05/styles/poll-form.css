@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+:root{
+    --defaualt-font: 'Roboto','Cherry Swash','serif';
+    --secondary-font: 'sans-serif';
+    --background-color: #fff;
+    --text-font: #000060;
+}
+
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--defaualt-font);
+    font-size: 1.2rem;
+    padding: 20px;
+    color: #333;
+    background: var(--background-color);
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1{
+    display: grid;
+    justify-self: center;
+    font-family: var(--defaualt-font);
+    color: var(--text-font);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form{
+    display: grid;
+    max-width: 600px;
+    min-width: auto;
+    margin: 0.2rem auto;
+    padding: 1rem;
+    border: 2px solid #000010; 
+    border-radius: 1rem 0;
+    background-color: #f8f5f5;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 0.5rem;
+    justify-content: start;
+    margin: 2px;
+    padding: 1rem;
+    border: 2px solid #000012; 
+}
+
+legend {
+  padding: 0.5rem;
+  color: #000040;
+  font-size: 1.3em;
+}
+
+
+button, select, input, textarea {
+    font-family: var(--secondary-font);
+}
+
+label{
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+select, input, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]{
+    height: 1.2rem;
+    width: 1.2rem;
+    vertical-align: bottom;
+}
+
+button{
+    background-color: #000080;
+    width: auto;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2{
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+    border-top: 1px solid rgb(213, 212, 212);
+    background-color: #f2efef;
+    padding: 0.2rem;
+    font-size: 1rem;
+}
