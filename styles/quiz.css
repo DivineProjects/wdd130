@@ -95,7 +95,7 @@ button:hover{
     background-color: grey;
 }
 
-p{
+div p{
     display: grid;
     background-color: gray;
     padding: 1rem;
@@ -117,8 +117,8 @@ p{
 
 
 footer{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    justify-content: center;
     align-items: center;
     margin-top: 1rem;
     text-align: center;
