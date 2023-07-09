@@ -76,17 +76,19 @@
                         </div>    
                     </fieldset>
                         
+                     <!--  -->
+                    
+                     <fieldset>
+                        <legend>Your message</legend>
                         
-                    <fieldset>
-                        <legend>The Message</legend>
-                        <div class="form-item column1">
-                            <label for="purpose">What is the purpose of the message?</label>
-                            <select name="purpose" id="purpose">
-                                <option value="" selected disabled>Choose One ...</option>
-                                <option value="inquiry">General Inquiry</option>
-                                <option value="reservation">Reservation Question</option>
-                                <option value="suggestion">Website Suggestion</option>
-                            </select>
+                        <label for="textarea">Select the purpose of the message?</label>
+                          <div>
+                            <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                            <label for="inquiry">General Inquiry</label><br>
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label><br>
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
                         </div>
         
                         <label for="textarea">What is your Message?</label>

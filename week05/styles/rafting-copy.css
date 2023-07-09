@@ -204,6 +204,11 @@ legend {
     margin: 0.5rem 0;
 }
 
+.column3{
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: 0 ; */
+}
+
 input[type="checkbox"]{
     height: 1.2rem;
     width: 1.2rem;
