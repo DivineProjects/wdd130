@@ -72,6 +72,7 @@ button, select, input, textarea {
 label{
     text-align: left;
     padding-right: 0.5rem;
+    margin-top: 1rem;
 }
 
 select, input, textarea {
