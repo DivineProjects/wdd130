@@ -253,6 +253,7 @@ address{
 
 .employee{
     display: grid;
+    color: var(--primary-color);
 }
 
 .img-employees{
@@ -394,6 +395,7 @@ footer{
     text-align: center;
     border-top: 1px solid var(--primary-color);
     background-color: var(--nav-hover-background-color);
+    color: var(--primary-color);
 }
 
 footer img{
