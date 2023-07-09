@@ -297,6 +297,7 @@ label{
     text-align: left;
     padding-right: 1rem;
     font-size:  1.1rem;
+    color: var(--primary-color);
 }
 
 iframe{
@@ -315,8 +316,9 @@ select, input, textarea {
 
 legend {
     padding: 0.5rem;
-    color: #000040;
+    /* color: #000040; */
     font-size: 1.3em;
+    color: var(--primary-color);
 }
 
 .form-item{
@@ -327,11 +329,13 @@ legend {
 .column1{
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
+    color: var(--primary-color);
 }
 
 .column2{
     grid-template-columns: 1fr 2fr;
     margin: 0.5rem 0;
+    color: var(--primary-color);
 }
 
 .column3{
@@ -340,15 +344,23 @@ legend {
     margin: 0 ;
     padding: 0;
     align-content: center;
+    color: var(--primary-color);
 }
 
 
-div:first-of-type {
+.radiob{
     display: flex;
     align-items: start;
     margin-bottom: 5px;
+    color: var(--primary-color);
   }
 
+  .radiop{
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    margin: 0;
+    padding-left: 0;
+  }
 
 input[type="checkbox"]{
     height: 1.2rem;
