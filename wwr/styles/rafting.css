@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 :root {
-  --primary-color: #000060;
+  --primary-color: #000012; 
   --secondary-color: #000040;
-  --accent1-color: #212199;
-  --accent2-color: rgb(244, 244, 250);
+  --accent1-color: #140576;
+  --accent2-color: #fffffa;
 
   --heading-font: 'Roboto','Cherry Swash', serif;
   --paragraph-font: 'Sans-serif', serif;
 
-  --nav-background-color: #000321;
-  --nav-link-color: blue;
+  --nav-background-color: #023e8a;
+  --nav-link-color: #002855;
   --nav-hover-link-color: #4274B0;
   --nav-hover-background-color: #A6BCC1;
 }
@@ -26,6 +26,7 @@ body{
     max-width: 900px;
     padding: 20px;
     background-color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 header, .employee, main, footer{
@@ -188,19 +189,6 @@ p{
 
 
 /* CSS FOR CONTACTS PAGE */
-
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-p{
-    padding: 20px;
-    font-family: var(--paragraph-font);
-    color: var(--primary-color);
-}
-
-
 
 main{
     display: grid;
@@ -438,8 +426,12 @@ footer a:link{
 
 .trip-info img{
     display: block;
-    max-width: auto;
+    width: auto;
     max-height: 150px;
+}
+
+.trips h2{
+    font-size: 1.05rem;
 }
 
 .trip-info p{
@@ -486,20 +478,64 @@ footer a:link{
     text-align: center;
   }
 
-.GFG {
+/* .GFG {
     background-color: var(--accent1-color);
     border: 2px solid var(--accent1-color);
     color: white;
     padding: 5px 10px;
     text-align: center;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 10px 20px;
     border-radius: 0.25rem;
     cursor: pointer;
-    /* padding: 1rem; */
+    text-decoration:none;
+    
 
+} */
+.GFG {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 10px 20px;
+    outline: none;
+    padding: 8px .8em;
+    /* position: relative; */
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+
+.GFG:hover,
+.GFG:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
 }
+
+.GFG:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.GFG:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+
+
 
 
 
