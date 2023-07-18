@@ -25,7 +25,10 @@ h1{
     border-bottom: 2px solid rgb(132, 168, 198);
 }
 
-
+main{
+    grid-column: 2/ 3;
+    margin: 1rem;
+}
 
 main img{
     width: 150px;
@@ -38,11 +41,6 @@ main img{
 
 p{
     padding: 0;
-}
-
-main{
-    grid-column: 2/ 3;
-    margin: 1rem;
 }
 
 aside{
