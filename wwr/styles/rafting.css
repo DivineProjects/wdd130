@@ -61,9 +61,9 @@ nav a{
     text-align: center;
     text-decoration: none;
     border: 1px solid  var(--accent2-color) ;
-    font-size: 1.25rem;
-    
+    font-size: 1.25rem; 
 }
+
 
 header img{
     display: flex;
@@ -228,6 +228,13 @@ address{
     margin: 0 1rem 0.5rem 1rem;
     font-family: var(--paragraph-font);
     color: var(--primary-color);
+}
+
+.contacts-gg-map{
+    display: flex;
+    flex-direction: wrap;
+    justify-self: stretch;
+    align-items: center;
 }
 
 .employee{

@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 :root {
-  --primary-color: #243147;
+  --primary-color: #000012;
   --secondary-color: #4274B0;
-  --accent1-color: #64A8D5;
-  --accent2-color: #A6BCC1;
+  --accent1-color: #140576;
+  --accent2-color: #fffffa;
 
   --heading-font: 'Roboto','Cherry Swash', serif;
   --paragraph-font: 'Sans-serif', serif;
 
-  --nav-background-color: #000321;
-  --nav-link-color: #ffffff;
+  --nav-background-color: #023e8a;
+  --nav-link-color: #002855;
   --nav-hover-link-color: #4274B0;
   --nav-hover-background-color: #A6BCC1;
 }
@@ -43,7 +43,7 @@ nav{
 
 nav a{
     display: block;
-    color: var(--nav-link-color);
+    color: var(--accent2-color);
     text-decoration: none;
     padding: 1rem;
 }
