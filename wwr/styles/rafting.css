@@ -230,13 +230,6 @@ address{
     color: var(--primary-color);
 }
 
-.contacts-gg-map{
-    display: flex;
-    flex-direction: wrap;
-    justify-self: stretch;
-    align-items: center;
-}
-
 .employee{
     display: grid;
     color: var(--primary-color);
